@@ -31,6 +31,7 @@ ENV/
 # SQLite databases
 *.sqlite3
 *.db
+venv/
 
 # --------------------
 # Streamlit specific
