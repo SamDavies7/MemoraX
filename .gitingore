@@ -1,20 +1,73 @@
+# --------------------
 # Python
+# --------------------
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.pdb
-.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.python-version
+
+# Virtual environments
 venv/
 env/
-.env
-*.sqlite3
-*.log
+.venv/
+ENV/
 
-# OS
+# Environment variables / secrets
+.env
+.env.*
+
+# Byte-compiled / temporary
+*.log
+*.tmp
+*.temp
+
+# SQLite databases
+*.sqlite3
+*.db
+
+# --------------------
+# Streamlit specific
+# --------------------
+.streamlit/secrets.toml  # contains API keys or credentials
+
+# --------------------
+# Jupyter Notebooks
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# OS files
+# --------------------
 .DS_Store
 Thumbs.db
 
-# IDE
+# --------------------
+# IDE/editor config
+# --------------------
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+
+# --------------------
+# Large model/data files
+# --------------------
+*.bin
+*.pt
+*.h5
+*.ckpt
+*.pickle
+*.pkl
+*.joblib
+
+# Local data folders
+data/
+datasets/
+models/
