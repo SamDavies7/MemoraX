@@ -17,3 +17,15 @@ Features
 - ** Summarisation** — Produces concise summaries within user-set length bounds.
 - ** Quiz generation** — Creates multiple-choice questions from the summary using keyword extraction.
 - ** Progress feedback** — Chunk progress, ETA, and debug view of sub-summaries.
+
+ How It Works
+
+    Input — The app accepts PDF, DOCX, or plain text.
+
+    Cleaning — Removes page numbers, headers, and hyphenated line breaks.
+
+    Token Counting — Uses Hugging Face tokenizer to count tokens and set chunk size.
+
+    Summarisation — Summarises each chunk, then merges into a final summary.
+
+    Quiz Generation — Extracts top keywords (TF-IDF), finds sentences, blanks keywords, and builds MCQs.
