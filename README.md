@@ -13,8 +13,8 @@ Features
 
 - ** Multi-format input** — Upload PDF (`.pdf`) or Word (`.docx`) files, or paste text directly.
 - ** Model selection** — Choose between:
-  - **BART** (`facebook/bart-large-cnn`) — fast, ~1k token context.
-  - **LED** (`allenai/led-base-16384`) — long-form, ~16k token context.
+  - **BART** (`facebook/bart-large-cnn`) — fast, 1k token context.
+  - **LED** (`allenai/led-base-16384`) — long-form, 16k token context.
 - ** Safe chunking** — Automatically splits text by token count to avoid model truncation.
 - ** Summarisation** — Produces concise summaries within user-set length bounds.
 - ** Quiz generation** — Creates multiple-choice questions from the summary using keyword extraction.
