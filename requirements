@@ -1,0 +1,7 @@
+streamlit>=1.32
+transformers>=4.55
+torch>=2.1
+sentencepiece>=0.1.99
+PyPDF2>=3.0.1
+python-docx>=1.0.1
+scikit-learn>=1.3
